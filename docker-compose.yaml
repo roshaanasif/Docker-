@@ -1,0 +1,39 @@
+# //container example
+
+# version: "3.9"
+
+# services:
+#   app:
+#     build: .
+#     container_name: node_container_example
+#     ports:
+#       - "3000:3000"
+
+# //image example
+
+# version: "3.9"
+
+# services:
+#   nodeapp:
+#     build: .
+#     image: my-node-image:v1
+#     container_name: image_example
+#     ports:
+#       - "3000:3000"
+
+
+# // volumes example
+
+# version: "3.9"
+
+# services:
+#   nodeapp:
+#     build: .
+#     container_name: volume_example
+#     ports:
+#       - "3001:3000"
+#     volumes:
+#       - app_data:/app/data
+
+# volumes:
+#   app_data:

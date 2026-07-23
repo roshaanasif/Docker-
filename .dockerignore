@@ -1,0 +1,14 @@
+node_modules
+.git
+.gitignore
+.env
+npm-debug.log
+coverage
+dist
+logs
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+README.md
+docker-compose.yml
